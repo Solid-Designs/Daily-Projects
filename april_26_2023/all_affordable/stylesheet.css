@@ -1,0 +1,31 @@
+#main-nav {
+    display: flex;
+}
+
+#nav-list {
+    width: 100%;
+    text-align: center;
+}
+
+#nav-list li {
+    list-style: none;
+    display: inline-block;
+    padding: 25px 15px;
+}
+
+#nav-list li a {
+    color: white;
+    text-decoration: none;
+    background-color:none;
+}
+
+#nav-button {
+    background-color: blue;
+    border: none;
+    width: 15%;
+    color:white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
