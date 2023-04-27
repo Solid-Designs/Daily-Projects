@@ -1,0 +1,5 @@
+Tasks:
+1. Reverse a string
+
+Description: Take a normal string and reverse the spelling using code. 
+So if you input "Taco" you'd get "ocaT"
