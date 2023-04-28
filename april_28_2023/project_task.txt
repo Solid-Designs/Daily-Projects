@@ -1,0 +1,8 @@
+Tasks:
+1. Calculate the area of a rectangle
+
+Description: 
+Write a program that prompts the user to enter the length and width of a rectangle, 
+and then calculates and outputs the area of the rectangle.
+
+(Task in progress!)
