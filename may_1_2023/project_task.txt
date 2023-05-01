@@ -1,0 +1,4 @@
+Tasks:
+1. Practice CSS
+
+Description: Don't just depend on bootstrap, but actually learn how it works
