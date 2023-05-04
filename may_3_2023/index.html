@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <h2>I'm tired today, so add some numbers, yo.</h2>
+        <form>
+            <label for="firstnumber">First Number</label>
+            <input type="number" id="firstnumber">
+            <label for="secondnumber">Second Number</label>
+            <input type="number" id="secondnumber">
+            <button type="button" onclick="addNumbers()">Submit</button>
+        </form>
+    </div>
+    <div>
+        <h2>The sum will appear here: </h2>
+        <h2 id="sum"></h2>
+    </div>
+    <script>
+        function addNumbers(){
+            let firstNumber = parseInt(document.getElementById('firstnumber').value);
+            let secondNumber = parseInt(document.getElementById('secondnumber').value);
+            let sum = firstNumber + secondNumber;
+            document.getElementById('sum').innerHTML = sum;
+        }
+    </script>
+</body>
+</html>
